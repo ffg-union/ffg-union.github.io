@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.2",
+    "@types/node": "^20.14.9",
+    "eslint": "^9.6.0",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.31"
+  },
+  "dependencies": {
+    "npm": "^10.8.1"
+  }
+}

@@ -25,7 +25,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: { svg: readFileSync('/public/asserts/qq.svg', 'utf-8') }, link: 'https://qm.qq.com/q/3avIbBzvzO' }
+      { icon: { svg: readFileSync('./public/asserts/qq.svg', 'utf-8') }, link: 'https://qm.qq.com/q/3avIbBzvzO' }
     ]
   }
 })

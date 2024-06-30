@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
+    "host": "vitepress dev --host",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },

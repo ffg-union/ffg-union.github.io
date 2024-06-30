@@ -11,9 +11,9 @@ hero:
     - theme: brand
       text: 加入我们
       link: https://qm.qq.com/q/3avIbBzvzO
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: alt
+      text: 社团成员
+      link: /members
 
 # features:
 #   - title: Feature A

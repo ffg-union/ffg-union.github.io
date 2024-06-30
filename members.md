@@ -21,7 +21,7 @@ const member = (uin, name) => ({
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      凌远行路人
+      凌远引路人
     </template>
     <template #lead>
       此刻我们站在这里，站在天地间的广袤无垠，聆听山风的呼吸。
@@ -39,13 +39,5 @@ const member = (uin, name) => ({
       member(3068306281, '曹东淇'),
     ]"
   />
-  <VPTeamMembers
-    size="small"
-    :members="[
-      member(2696519745, '曲寿宇'),
-      member(2638196066, '刘继壕'),
-      member(264975724, '刘航'),
-      member(1085505625, '任启闻'),
-    ]"
-  />
+/>
 </VPTeamPage>

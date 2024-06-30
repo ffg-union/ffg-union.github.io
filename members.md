@@ -39,5 +39,4 @@ const member = (uin, name) => ({
       member(3068306281, '曹东淇'),
     ]"
   />
-/>
 </VPTeamPage>

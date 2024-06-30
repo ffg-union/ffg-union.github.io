@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs'
 export default defineConfig({
   title: '凌远地理社',
   themeConfig: {
-    logo: '/asserts/logo.png',
+    logo: './asserts/logo.png',
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [

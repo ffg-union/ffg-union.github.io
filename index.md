@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  image: asserts/logo.png
+  image: ./asserts/logo.png
   name: 凌远地理社
   text: Fly Far Geography Union
   tagline: 亲爱的行路人，感谢到来，在这地理的天地

@@ -3,11 +3,12 @@ import { readFileSync } from 'node:fs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   title: '凌远地理社',
   description: '山东师范大学附属中学·凌远地理社是一个学科类社团，在“充满干货”的活动中，也有每一位行路人的彼此照亮。在这里，我们可以成为灯塔（主讲人），向大家讲解地理知识，分享学习乐趣；在这里，我们可以成为叶群（学习者），彼此讨论，相互答疑，提出问题，帮助他人；在这里，我们可以成为旅鸟（研学者），探寻自然的奥秘，感受魅力的人文。',
 
   themeConfig: {
-    logo: '/asserts/logo.png',
+    logo: '/assets/logo.png',
 
     outlineTitle: '概述',
     darkModeSwitchLabel: '主题',
@@ -19,7 +20,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          zh: {
+          root: {
             translations: {
               button: { buttonText: '搜索...' },
               modal: {
@@ -37,6 +38,7 @@ export default defineConfig({
         },
       },
     },
+  
     notFound: {
       title: '糟糕，你进入了一片无人涉足的地方',
       quote: '但没关系，每一次的开拓，都是一盏小小的灯，为后人指明方向。在这里，同志同道合的行路人们，开拓一片新天地，不断探索，勇往直前。',
@@ -60,7 +62,7 @@ export default defineConfig({
     // ],
 
     socialLinks: [
-      { icon: { svg: readFileSync('./public/asserts/qq.svg', 'utf-8') }, link: 'https://qm.qq.com/q/3avIbBzvzO' }
+      { icon: { svg: readFileSync('./public/assets/qq.svg', 'utf-8') }, link: 'https://qm.qq.com/q/3avIbBzvzO' }
     ]
   }
 })

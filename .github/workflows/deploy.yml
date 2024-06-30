@@ -23,4 +23,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
-          commit-message: ":rocket: deploy to `gh-pages`"
+          commit_message: ":rocket: deploy to `gh-pages`"
